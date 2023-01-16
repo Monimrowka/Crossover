@@ -6,6 +6,10 @@
 
 body {
   font-family: "Inter", sans-serif;
+}
+
+/* <header> Header (navbar & hero section) - Alessandra </header> 
+
 
 }
 .services {
@@ -319,9 +323,145 @@ p25 {
 
 
 
- /* < "Fiverr guides" & ("Get inspired with projects made by our freelancers" or "fiverr logo maker") - Anna Sofia >
+< "Popular professional services" & "A whole world of freelance" - Simran >
 
-<footer> Footer & "Find the taletnt" - JAN </footer>  */ 
+
+ < Explore the marketplace & Kay kim - Monika > 
+
+ < "Fiverr guides" & ("Get inspired with projects made by our freelancers" or "fiverr logo maker") - Anna Sofia >*/
+
+.MakeLogo {
+  display: flex;
+  width: 94%;
+  margin: 8rem auto;
+  height: 400px;
+}
+
+.LogoText {
+  background-color: #446ee7;
+  color: #ffffff;
+  flex-grow: 5;
+  flex-basis: 700px;
+  padding: 3rem 0 5rem 3rem;
+}
+
+.LogoFiverr {
+  padding-bottom: 2rem;
+}
+
+.LogoText h3 {
+  font-size: 2rem;
+  display: inline;
+  font-weight: 900;
+}
+
+.LogoText h4 {
+  font-size: 2.2rem;
+  display: inline;
+  font-weight: 400;
+  letter-spacing: 0.001em;
+}
+
+.LogoText h1 {
+  font-size: 2.9rem;
+}
+
+.LogoText h2 {
+  font-size: 2.5rem;
+  font-family: "Sansita Swashed";
+  font-weight: 100;
+  padding-bottom: 0.8rem;
+}
+
+.LogoText p {
+  font-size: 1.4rem;
+}
+
+.LogoText button {
+  font: inherit;
+  color: #446ee7;
+  background-color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  border-style: none;
+}
+
+.LogoText button:hover {
+  color: #3f63c8;
+  background-color: #d4defb;
+  cursor: pointer;
+}
+
+.LogoImage {
+  flex-grow: 1;
+  background-color: #446ee7;
+}
+
+.LogoImage img {
+  height: 100%;
+}
+
+.guidesContainer {
+  width: 94%;
+  margin: 8rem auto;
+}
+
+.guidesTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2.7rem;
+}
+
+.guidesTitle h1 {
+  color: #404145;
+  font-size: 2.7rem;
+}
+
+.guidesTitle a {
+  color: #446ee7;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.guidesGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.guidesCell a img {
+  object-fit: cover;
+}
+
+.guidesCell a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.guidesCell a h3 {
+  color: #404145;
+  font-size: 1.5rem;
+  padding: 1rem 0 0.5rem 0;
+  line-height: 2.2rem;
+}
+
+.guidesCell a p {
+  color: #74767e;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+}
+
+/* <footer> Footer & "Find the taletnt" - JAN </footer>  */
+
+
 
 
 
