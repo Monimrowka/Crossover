@@ -8,6 +8,130 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.talent {
+    /* border: 5px solid greenyellow; */
+    text-align: center;
+    padding: 5% 0;
+
+    border-bottom: 1px solid #b5b6ba;
+}
+
+.talent img {
+    border-radius: 8px;
+}
+
+footer {
+    /* border: 5px solid blue; */
+    color: #62646a;
+}
+
+.link-wrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3% 3%;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 700;
+    color: #404145;
+    padding-bottom: 16px;
+    ;
+}
+
+.footer-categories {
+    /* border: 3px solid orange; */
+    flex-basis: 15%;
+    max-width: 15%;
+    margin: 1%;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+}
+
+.footer-categories ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-categories li {
+    padding-bottom: 16px;
+}
+
+.footer-categories p {
+    font-size: 14px;
+    color: #b5b6ba;
+}
+
+footer a:link {
+    color: #74767e;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #74767e;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* footera:active {
+    color: #800000;
+} */
+
+.bottom {
+    border-top: 1px solid #b5b6ba;
+    /* border: 5px solid red; */
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 1% 3%;
+
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: #b5b6ba;
+}
+
+.footer-logo-text {
+    padding: 0 20px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.fa {
+    color: #74767e;
+    font-size: 1.3rem;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+
+.fa:hover {
+    background-color: #efeff0;
+    cursor: pointer;
+}
+
+.fakebuttons {
+    cursor: pointer;
+    
+}
+
 .services {
   padding: 60px;
 }
@@ -438,3 +562,4 @@ img:hover {
 }
 
 /* <footer> Footer & "Find the taletnt" - JAN </footer>  */
+
