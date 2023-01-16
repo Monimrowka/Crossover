@@ -8,10 +8,6 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-/* <header> Header (navbar & hero section) - Alessandra </header> 
-
-
-}
 .services {
   padding: 60px;
 }
@@ -63,6 +59,7 @@ body {
   /* min-width: 700px; */
   flex-wrap: wrap;
 }
+
 .freelance-section-parent h1 {
   max-width: 450px;
   word-spacing: 4px;
@@ -100,7 +97,6 @@ body {
   font-size: 18px;
   opacity: 0.6;
 }
-
 
 #header-container {
   height: 100vh;
@@ -270,65 +266,47 @@ body {
   font-weight: 600;
 }
 
-
-
- < Explore the marketplace & Kay kim - Monika > */
-
- .video {
-    padding: 2%;
- }
+.video {
+  padding: 2%;
+}
 
 .KayKim {
-    font-style: italic;
-    margin-left: 8%;
-    font-size: larger;
-    font-family: cursive;
-    
+  font-style: italic;
+  margin-left: 8%;
+  font-size: larger;
+  font-family: cursive;
 }
 
 p22 {
-   font-style: italic;
-   color: gray ;
-   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
+  font-style: italic;
+  color: gray;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 p25 {
-    font-size: x-large;
+  font-size: x-large;
 }
 
+.container-md {
+  font-size: xx-large;
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
 
- .container-md {
-    font-size:xx-large;
-    margin-top: 4%;
-    margin-bottom: 3%;
- }
+.explore {
+  margin: 6%;
+  display: flex;
+  justify-content: center;
+}
 
- .explore {
-    margin: 6%;
-    display: flex;
-    justify-content: center;
+.col-sm-2 {
+  padding: 2%;
+}
 
- }
-
-
- .col-sm-2 {
-    padding: 2%;
- }
-
- 
- img:hover {
-    cursor: pointer;
- }
-
-
-
-< "Popular professional services" & "A whole world of freelance" - Simran >
-
-
- < Explore the marketplace & Kay kim - Monika > 
-
- < "Fiverr guides" & ("Get inspired with projects made by our freelancers" or "fiverr logo maker") - Anna Sofia >*/
+img:hover {
+  cursor: pointer;
+}
 
 .MakeLogo {
   display: flex;
@@ -460,9 +438,3 @@ p25 {
 }
 
 /* <footer> Footer & "Find the taletnt" - JAN </footer>  */
-
-
-
-
-
-
