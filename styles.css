@@ -16,8 +16,57 @@ body {
 
 < "Popular professional services" & "A whole world of freelance" - Simran >
 
- < Explore the marketplace & Kay kim - Monika > 
+ < Explore the marketplace & Kay kim - Monika > */
 
- < "Fiverr guides" & ("Get inspired with projects made by our freelancers" or "fiverr logo maker") - Anna Sofia >
+ .video {
+    padding: 2%;
+ }
 
-<footer> Footer & "Find the taletnt" - JAN </footer>  */
+.KayKim {
+    font-style: italic;
+    margin-left: 8%;
+    font-size: larger;
+    font-family: cursive;
+    
+}
+
+p22 {
+   font-style: italic;
+   color: gray ;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+p25 {
+    font-size: x-large;
+}
+
+
+ .container-md {
+    font-size:xx-large;
+    margin-top: 4%;
+    margin-bottom: 3%;
+ }
+
+ .explore {
+    margin: 6%;
+    display: flex;
+    justify-content: center;
+
+ }
+
+
+ .col-sm-2 {
+    padding: 2%;
+ }
+
+ 
+ img:hover {
+    cursor: pointer;
+ }
+
+
+
+ /* < "Fiverr guides" & ("Get inspired with projects made by our freelancers" or "fiverr logo maker") - Anna Sofia >
+
+<footer> Footer & "Find the taletnt" - JAN </footer>  */ 
