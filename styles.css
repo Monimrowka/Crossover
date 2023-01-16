@@ -6,6 +6,7 @@
 
 body {
   font-family: "Inter", sans-serif;
+
 }
 .services {
   padding: 60px;
@@ -96,12 +97,175 @@ body {
   opacity: 0.6;
 }
 
-/* <header> Header (navbar & hero section) - Alessandra </header> 
 
-< "Popular professional services" & "A whole world of freelance" - Simran >
+#header-container {
+  height: 100vh;
+  background-image: url("./assets/header-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
- < Explore the marketplace & Kay kim - Monika > 
+#nav-container {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 2.3rem;
+  /*   position: sticky;
+  top: 0; */
+}
 
- < "Fiverr guides" & ("Get inspired with projects made by our freelancers" or "fiverr logo maker") - Anna Sofia >
+.on-scroll {
+  background-color: blue;
+}
 
-<footer> Footer & "Find the taletnt" - JAN </footer>  */
+#nav-container ul {
+  display: flex;
+  align-items: center;
+}
+
+#nav-container ul li {
+  color: white;
+  list-style: none;
+  margin-right: 1.2em;
+  cursor: pointer;
+}
+
+#header-logo {
+  width: 6%;
+}
+
+#header-navlinks {
+  display: flex;
+}
+
+#header-button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.1em 1em;
+  border-radius: 5px;
+}
+
+#header-button:hover {
+  background-color: #1cbf73;
+  border: 1px solid #1cbf73;
+  color: white;
+}
+
+.search-main-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 2rem;
+}
+
+#search-title {
+  color: white;
+  font-weight: 600;
+  font-size: 3.1em;
+}
+
+#search-title-i {
+  font-family: "Domaine Display", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+#search-container {
+  display: flex;
+  margin: 2em 0;
+  width: 100%;
+}
+
+#search-one {
+  background-color: white;
+  height: 3rem;
+  padding: 0.8em;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  color: #b5b6ba;
+}
+
+#search-two {
+  background-color: white;
+  height: 3rem;
+  border: none;
+  width: 70%;
+}
+
+#search-two::placeholder {
+  color: #b5b6ba;
+}
+
+#search-three {
+  width: 15%;
+  height: 3rem;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #1cbf73;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#search-three:hover {
+  background-color: #10a56c;
+}
+
+#popular-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2%;
+  color: white;
+}
+
+#popular-text p {
+  margin: auto 0;
+}
+
+.popular-button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10%/50%;
+  padding: 0.2em 1em;
+}
+
+.popular-button:hover {
+  background-color: white;
+  color: #333333;
+}
+
+#bottom-text {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  color: white;
+}
+
+#trusted-container {
+  background-color: #f4f4f4;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  padding: 4rem auto;
+}
+
+#trusted-container > span {
+  margin: 0;
+  color: #b5b6ba;
+  font-weight: 600;
+}
+
+
+
+
