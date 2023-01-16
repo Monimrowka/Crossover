@@ -2,17 +2,125 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+
 }
 
 body {
     font-family: 'Inter', sans-serif;
 }
 
+.talent {
+    /* border: 5px solid greenyellow; */
+    text-align: center;
+    padding: 5% 0;
+    /* border-bottom: 1px solid #62646a; */
+}
+
+.talent img {
+    border-radius: 8px;
+}
+
+footer {
+    /* border: 5px solid blue; */
+    color: #62646a;
+}
+
+.link-wrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3% 3%;
+    border-bottom: 1px solid #62646a;
+    border-top: 1px solid #62646a;
+    /* padding: 3% 0; */
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 700;
+    color: #404145;
+    padding-bottom: 16px;
+    ;
+}
+
+.footer-categories {
+    /* border: 3px solid orange; */
+    flex-basis: 15%;
+    max-width: 15%;
+    margin: 1%;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+}
+
+.footer-categories ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-categories li {
+    padding-bottom: 16px;
+}
+
+.footer-categories p {
+    font-size: 14px;
+    color: #b5b6ba;
+}
+
+footer a:link {
+    color: #74767e;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #74767e;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* footera:active {
+    color: #800000;
+    } */
+
+.bottom {
+    /* border: 5px solid red; */
 
 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 3% 3%;
+}
 
- /* <header> Header (navbar & hero section) - Alessandra </header> 
+.footer-left {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: right;
+    list-style: none;
+}
+
+.fa {
+    color: #74767e;
+    background-color: #efeff0;
+    font-size: 1.3rem;
+    margin: 10px;
+    padding: 10px;
+    /* font-size: 20px; */
+    border-radius: 50%;
+
+}
+
+/* <header> Header (navbar & hero section) - Alessandra </header> 
 
 < "Popular professional services" & "A whole world of freelance" - Simran >
 
